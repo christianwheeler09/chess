@@ -1,0 +1,32 @@
+body{
+    background-color: #222;
+    color: #bbb;
+    margin: 25mm;
+}
+
+table{
+    border-spacing: 0px;
+}
+
+td{
+    padding: 0px;
+}
+
+.square{
+    width: 25mm;
+    height: 25mm;
+}
+
+.light{
+    background-color: #EADDCA;
+}
+
+.dark{
+    background-color: #483C32;
+}
+
+img{
+    width: 20mm;
+    height: 20mm;
+    margin: 10%;
+}

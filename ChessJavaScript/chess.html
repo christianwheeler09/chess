@@ -1,0 +1,287 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess in JavaScript</title>
+    <link rel="stylesheet" href="chess.css">
+</head>
+<body>
+    <table>
+        <tr id="row8">
+            <td>
+                <div class="square light">
+                    <img id="dark-rook2" src="images/dark-rook.png" alt="">
+                </div>
+            </td>
+            <td>
+                <div class="square dark">
+                    <img id="dark-knight2" src="images/dark-knight.png" alt="">
+                </div>
+            </td>
+            <td>
+                <div class="square light">
+                    <img id="dark-bishop2" src="images/dark-bishop.png" alt="">
+                </div>
+            </td>
+            <td>
+                <div class="square dark">
+                    <img id="dark-queen" src="images/dark-queen.png" alt="">
+                </div>
+            </td> 
+            <td>
+                <div class="square light">
+                    <img id="dark-king" src="images/dark-king.png" alt="">
+                </div>
+            </td>
+            <td>
+                <div class="square dark">
+                    <img id="dark-bishop1" src="images/dark-bishop.png" alt="">
+                </div>
+            </td>
+            <td>
+                <div class="square light">
+                    <img id="dark-knight1" src="images/dark-knight.png" alt="">
+                </div>
+            </td>
+            <td>
+                <div class="square dark">
+                    <img id="dark-rook1" src="images/dark-rook.png" alt="">
+                </div>
+            </td>            
+        </tr>
+        <tr id="row7">
+            <td>
+                <div class="square dark">
+                    <img id="dark-pawn8" src="images/dark-pawn.png" alt="">
+                </div>
+            </td>
+            <td>
+                <div class="square light">
+                    <img id="dark-pawn7" src="images/dark-pawn.png" alt="">
+                </div>
+            </td>
+            <td>
+                <div class="square dark">
+                    <img id="dark-pawn6" src="images/dark-pawn.png" alt="">
+                </div>
+            </td> 
+            <td>
+                <div class="square light">
+                    <img id="dark-pawn5" src="images/dark-pawn.png" alt="">
+                </div>
+            </td>
+            <td>
+                <div class="square dark">
+                    <img id="dark-pawn4" src="images/dark-pawn.png" alt="">
+                </div>
+            </td>
+            <td>
+                <div class="square light">
+                    <img id="dark-pawn3" src="images/dark-pawn.png" alt="">
+                </div>
+            </td>
+            <td>
+                <div class="square dark">
+                    <img id="dark-pawn2" src="images/dark-pawn.png" alt="">
+                </div>
+            </td>
+            <td>
+                <div class="square light">
+                    <img id="dark-pawn1" src="images/dark-pawn.png" alt="">
+                </div>
+            </td>            
+        </tr>
+        <tr id="row6">
+            <td>
+                <div class="square light"></div>
+            </td>
+            <td>
+                <div class="square dark"></div>
+            </td>
+            <td>
+                <div class="square light"></div>
+            </td>
+            <td>
+                <div class="square dark"></div>
+            </td> 
+            <td>
+                <div class="square light"></div>
+            </td>
+            <td>
+                <div class="square dark"></div>
+            </td>
+            <td>
+                <div class="square light"></div>
+            </td>
+            <td>
+                <div class="square dark"></div>
+            </td>            
+        </tr>
+        <tr id="row5">
+            <td>
+                <div class="square dark"></div>
+            </td>
+            <td>
+                <div class="square light"></div>
+            </td>
+            <td>
+                <div class="square dark"></div>
+            </td> 
+            <td>
+                <div class="square light"></div>
+            </td>
+            <td>
+                <div class="square dark"></div>
+            </td>
+            <td>
+                <div class="square light"></div>
+            </td>
+            <td>
+                <div class="square dark"></div>
+            </td>
+            <td>
+                <div class="square light"></div>
+            </td>            
+        </tr>
+        <tr id="row4">
+            <td>
+                <div class="square light"></div>
+            </td>
+            <td>
+                <div class="square dark"></div>
+            </td>
+            <td>
+                <div class="square light"></div>
+            </td>
+            <td>
+                <div class="square dark"></div>
+            </td> 
+            <td>
+                <div class="square light"></div>
+            </td>
+            <td>
+                <div class="square dark"></div>
+            </td>
+            <td>
+                <div class="square light"></div>
+            </td>
+            <td>
+                <div class="square dark"></div>
+            </td>            
+        </tr>
+        <tr id="row3">
+            <td>
+                <div class="square dark"></div>
+            </td>
+            <td>
+                <div class="square light"></div>
+            </td>
+            <td>
+                <div class="square dark"></div>
+            </td> 
+            <td>
+                <div class="square light"></div>
+            </td>
+            <td>
+                <div class="square dark"></div>
+            </td>
+            <td>
+                <div class="square light"></div>
+            </td>
+            <td>
+                <div class="square dark"></div>
+            </td>
+            <td>
+                <div class="square light"></div>
+            </td>            
+        </tr>
+        <tr id="row2">
+            <td>
+                <div class="square light">
+                    <img id="light-pawn1" src="images/light-pawn.png" alt="">
+                </div>
+            </td>
+            <td>
+                <div class="square dark">
+                    <img id="light-pawn2" src="images/light-pawn.png" alt="">
+                </div>
+            </td>
+            <td>
+                <div class="square light">
+                    <img id="light-pawn1" src="images/light-pawn.png" alt="">
+                </div>
+            </td>
+            <td>
+                <div class="square dark">
+                    <img id="light-pawn1" src="images/light-pawn.png" alt="">
+                </div>
+            </td> 
+            <td>
+                <div class="square light">
+                    <img id="light-pawn1" src="images/light-pawn.png" alt="">
+                </div>
+            </td>
+            <td>
+                <div class="square dark">
+                    <img id="light-pawn1" src="images/light-pawn.png" alt="">
+                </div>
+            </td>
+            <td>
+                <div class="square light">
+                    <img id="light-pawn1" src="images/light-pawn.png" alt="">
+                </div>
+            </td>
+            <td>
+                <div class="square dark">
+                    <img id="light-pawn1" src="images/light-pawn.png" alt="">
+                </div>
+            </td>            
+        </tr>
+        <tr id="row1">
+            <td>
+                <div class="square dark">
+                    <img id="light-rook1" src="images/light-rook.png" alt="">
+                </div>
+            </td>
+            <td>
+                <div class="square light">
+                    <img id="light-knight1" src="images/light-knight.png" alt="">
+                </div>
+            </td>
+            <td>
+                <div class="square dark">
+                    <img id="light-bishop1" src="images/light-bishop.png" alt="">
+                </div>
+            </td> 
+            <td>
+                <div class="square light">
+                    <img id="light-queen" src="images/light-queen.png" alt="">
+                </div>
+            </td>
+            <td>
+                <div class="square dark">
+                    <img id="light-king" src="images/light-king.png" alt="">
+                </div>
+            </td>
+            <td>
+                <div class="square light">
+                    <img id="light-bishop2" src="images/light-bishop.png" alt="">
+                </div>
+            </td>
+            <td>
+                <div class="square dark">
+                    <img id="light-knight2" src="images/light-knight.png" alt="">
+                </div>
+            </td>
+            <td>
+                <div class="square light">
+                    <img id="light-rook2" src="images/light-rook.png" alt="">
+                </div>
+            </td>            
+        </tr>
+    </table>
+    <a href="https://www.flaticon.com/free-icons/chess" title="chess icons">Chess icons created by deemakdaksina - Flaticon</a>
+    <script src="chess.js"></script>
+</body>
+</html>
