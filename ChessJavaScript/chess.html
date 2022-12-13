@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -6,282 +7,322 @@
     <title>Chess in JavaScript</title>
     <link rel="stylesheet" href="chess.css">
 </head>
+
 <body>
     <table>
         <tr id="row8">
             <td>
-                <div class="square light">
+                <div class="left-header">8</div>
+            </td>
+            <td>
+                <div class="square light" id="A8">
                     <img id="dark-rook2" src="images/dark-rook.png" alt="">
                 </div>
             </td>
             <td>
-                <div class="square dark">
+                <div class="square dark" id="B8">
                     <img id="dark-knight2" src="images/dark-knight.png" alt="">
                 </div>
             </td>
             <td>
-                <div class="square light">
+                <div class="square light" id="C8">
                     <img id="dark-bishop2" src="images/dark-bishop.png" alt="">
                 </div>
             </td>
             <td>
-                <div class="square dark">
+                <div class="square dark" id="D8">
                     <img id="dark-queen" src="images/dark-queen.png" alt="">
                 </div>
-            </td> 
+            </td>
             <td>
-                <div class="square light">
+                <div class="square light" id="E8">
                     <img id="dark-king" src="images/dark-king.png" alt="">
                 </div>
             </td>
             <td>
-                <div class="square dark">
+                <div class="square dark" id="F8">
                     <img id="dark-bishop1" src="images/dark-bishop.png" alt="">
                 </div>
             </td>
             <td>
-                <div class="square light">
+                <div class="square light" id="G8">
                     <img id="dark-knight1" src="images/dark-knight.png" alt="">
                 </div>
             </td>
             <td>
-                <div class="square dark">
+                <div class="square dark" id="H8">
                     <img id="dark-rook1" src="images/dark-rook.png" alt="">
                 </div>
-            </td>            
+            </td>
         </tr>
         <tr id="row7">
             <td>
-                <div class="square dark">
+                <div class="left-header">7</div>
+            </td>
+            <td>
+                <div class="square dark" id="A7">
                     <img id="dark-pawn8" src="images/dark-pawn.png" alt="">
                 </div>
             </td>
             <td>
-                <div class="square light">
+                <div class="square light" id="B7">
                     <img id="dark-pawn7" src="images/dark-pawn.png" alt="">
                 </div>
             </td>
             <td>
-                <div class="square dark">
+                <div class="square dark" id="C7">
                     <img id="dark-pawn6" src="images/dark-pawn.png" alt="">
                 </div>
-            </td> 
+            </td>
             <td>
-                <div class="square light">
+                <div class="square light" id="D7">
                     <img id="dark-pawn5" src="images/dark-pawn.png" alt="">
                 </div>
             </td>
             <td>
-                <div class="square dark">
+                <div class="square dark" id="E7">
                     <img id="dark-pawn4" src="images/dark-pawn.png" alt="">
                 </div>
             </td>
             <td>
-                <div class="square light">
+                <div class="square light" id="F7">
                     <img id="dark-pawn3" src="images/dark-pawn.png" alt="">
                 </div>
             </td>
             <td>
-                <div class="square dark">
+                <div class="square dark" id="G7">
                     <img id="dark-pawn2" src="images/dark-pawn.png" alt="">
                 </div>
             </td>
             <td>
-                <div class="square light">
+                <div class="square light" id="H7">
                     <img id="dark-pawn1" src="images/dark-pawn.png" alt="">
                 </div>
-            </td>            
+            </td>
         </tr>
         <tr id="row6">
             <td>
-                <div class="square light"></div>
+                <div class="left-header">6</div>
             </td>
             <td>
-                <div class="square dark"></div>
+                <div class="square light" id="A6"></div>
             </td>
             <td>
-                <div class="square light"></div>
+                <div class="square dark" id="B6"></div>
             </td>
             <td>
-                <div class="square dark"></div>
-            </td> 
-            <td>
-                <div class="square light"></div>
+                <div class="square light" id="C6"></div>
             </td>
             <td>
-                <div class="square dark"></div>
+                <div class="square dark" id="D6"></div>
             </td>
             <td>
-                <div class="square light"></div>
+                <div class="square light" id="E6"></div>
             </td>
             <td>
-                <div class="square dark"></div>
-            </td>            
+                <div class="square dark" id="F6"></div>
+            </td>
+            <td>
+                <div class="square light" id="G6"></div>
+            </td>
+            <td>
+                <div class="square dark" id="H6"></div>
+            </td>
         </tr>
         <tr id="row5">
             <td>
-                <div class="square dark"></div>
+                <div class="left-header">5</div>
             </td>
             <td>
-                <div class="square light"></div>
+                <div class="square dark" id="A5"></div>
             </td>
             <td>
-                <div class="square dark"></div>
-            </td> 
-            <td>
-                <div class="square light"></div>
+                <div class="square light" id="B5"></div>
             </td>
             <td>
-                <div class="square dark"></div>
+                <div class="square dark" id="C5"></div>
             </td>
             <td>
-                <div class="square light"></div>
+                <div class="square light" id="D5"></div>
             </td>
             <td>
-                <div class="square dark"></div>
+                <div class="square dark" id="E5"></div>
             </td>
             <td>
-                <div class="square light"></div>
-            </td>            
+                <div class="square light" id="F5"></div>
+            </td>
+            <td>
+                <div class="square dark" id="G5"></div>
+            </td>
+            <td>
+                <div class="square light" id="H5"></div>
+            </td>
         </tr>
         <tr id="row4">
             <td>
-                <div class="square light"></div>
+                <div class="left-header">4</div>
             </td>
             <td>
-                <div class="square dark"></div>
+                <div class="square light" id="A4"></div>
             </td>
             <td>
-                <div class="square light"></div>
+                <div class="square dark" id="B4"></div>
             </td>
             <td>
-                <div class="square dark"></div>
-            </td> 
-            <td>
-                <div class="square light"></div>
+                <div class="square light" id="C4"></div>
             </td>
             <td>
-                <div class="square dark"></div>
+                <div class="square dark" id="D4"></div>
             </td>
             <td>
-                <div class="square light"></div>
+                <div class="square light" id="E4"></div>
             </td>
             <td>
-                <div class="square dark"></div>
-            </td>            
+                <div class="square dark" id="F4"></div>
+            </td>
+            <td>
+                <div class="square light" id="G4"></div>
+            </td>
+            <td>
+                <div class="square dark" id="H4"></div>
+            </td>
         </tr>
         <tr id="row3">
             <td>
-                <div class="square dark"></div>
+                <div class="left-header">3</div>
             </td>
             <td>
-                <div class="square light"></div>
+                <div class="square dark" id="A3"></div>
             </td>
             <td>
-                <div class="square dark"></div>
-            </td> 
-            <td>
-                <div class="square light"></div>
+                <div class="square light" id="B3"></div>
             </td>
             <td>
-                <div class="square dark"></div>
+                <div class="square dark" id="C3"></div>
             </td>
             <td>
-                <div class="square light"></div>
+                <div class="square light" id="D3"></div>
             </td>
             <td>
-                <div class="square dark"></div>
+                <div class="square dark" id="E3"></div>
             </td>
             <td>
-                <div class="square light"></div>
-            </td>            
+                <div class="square light" id="F3"></div>
+            </td>
+            <td>
+                <div class="square dark" id="G3"></div>
+            </td>
+            <td>
+                <div class="square light" id="H3"></div>
+            </td>
         </tr>
         <tr id="row2">
             <td>
-                <div class="square light">
+                <div class="left-header">2</div>
+            </td>
+            <td>
+                <div class="square light" id="A2">
                     <img id="light-pawn1" src="images/light-pawn.png" alt="">
                 </div>
             </td>
             <td>
-                <div class="square dark">
+                <div class="square dark" id="B2">
                     <img id="light-pawn2" src="images/light-pawn.png" alt="">
                 </div>
             </td>
             <td>
-                <div class="square light">
+                <div class="square light" id="C2">
                     <img id="light-pawn1" src="images/light-pawn.png" alt="">
                 </div>
             </td>
             <td>
-                <div class="square dark">
-                    <img id="light-pawn1" src="images/light-pawn.png" alt="">
-                </div>
-            </td> 
-            <td>
-                <div class="square light">
+                <div class="square dark" id="D2">
                     <img id="light-pawn1" src="images/light-pawn.png" alt="">
                 </div>
             </td>
             <td>
-                <div class="square dark">
+                <div class="square light" id="E2">
                     <img id="light-pawn1" src="images/light-pawn.png" alt="">
                 </div>
             </td>
             <td>
-                <div class="square light">
+                <div class="square dark" id="F2">
                     <img id="light-pawn1" src="images/light-pawn.png" alt="">
                 </div>
             </td>
             <td>
-                <div class="square dark">
+                <div class="square light" id="G2">
                     <img id="light-pawn1" src="images/light-pawn.png" alt="">
                 </div>
-            </td>            
+            </td>
+            <td>
+                <div class="square dark" id="H2">
+                    <img id="light-pawn1" src="images/light-pawn.png" alt="">
+                </div>
+            </td>
         </tr>
         <tr id="row1">
             <td>
-                <div class="square dark">
+                <div class="left-header">1</div>
+            </td>
+            <td>
+                <div class="square dark" id="A1">
                     <img id="light-rook1" src="images/light-rook.png" alt="">
                 </div>
             </td>
             <td>
-                <div class="square light">
+                <div class="square light" id="B1">
                     <img id="light-knight1" src="images/light-knight.png" alt="">
                 </div>
             </td>
             <td>
-                <div class="square dark">
+                <div class="square dark" id="C1">
                     <img id="light-bishop1" src="images/light-bishop.png" alt="">
                 </div>
-            </td> 
+            </td>
             <td>
-                <div class="square light">
+                <div class="square light" id="D1">
                     <img id="light-queen" src="images/light-queen.png" alt="">
                 </div>
             </td>
             <td>
-                <div class="square dark">
+                <div class="square dark" id="E1">
                     <img id="light-king" src="images/light-king.png" alt="">
                 </div>
             </td>
             <td>
-                <div class="square light">
+                <div class="square light" id="F1">
                     <img id="light-bishop2" src="images/light-bishop.png" alt="">
                 </div>
             </td>
             <td>
-                <div class="square dark">
+                <div class="square dark" id="G1">
                     <img id="light-knight2" src="images/light-knight.png" alt="">
                 </div>
             </td>
             <td>
-                <div class="square light">
+                <div class="square light" id="H1">
                     <img id="light-rook2" src="images/light-rook.png" alt="">
                 </div>
-            </td>            
+            </td>
+        </tr>
+        <tr>
+            <td class="corner-header"></td>
+            <td class="bottom-header">A</td>
+            <td class="bottom-header">B</td>
+            <td class="bottom-header">C</td>
+            <td class="bottom-header">D</td>
+            <td class="bottom-header">E</td>
+            <td class="bottom-header">F</td>
+            <td class="bottom-header">G</td>
+            <td class="bottom-header">H</td>
         </tr>
     </table>
-    <a href="https://www.flaticon.com/free-icons/chess" title="chess icons">Chess icons created by deemakdaksina - Flaticon</a>
+    <div id="bibliography">
+        <a href="https://www.flaticon.com/free-icons/chess" title="chess icons">Chess icons created by
+            deemakdaksina - Flaticon</a>
+    </div>
     <script src="chess.js"></script>
 </body>
+
 </html>
